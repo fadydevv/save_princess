@@ -1,0 +1,38 @@
+[gd_scene format=3 uid="uid://cjnt7ps33m87j"]
+
+[ext_resource type="Texture2D" uid="uid://boyrqhsmpq5sf" path="res://Ninja Adventure - Asset Pack/Actor/Character/Princess/SpriteSheet.png" id="1_mlurr"]
+[ext_resource type="Script" uid="uid://cskutl2momyph" path="res://area_2d.gd" id="2_xtddm"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xtddm"]
+atlas = ExtResource("1_mlurr")
+region = Rect2(0, 96, 16, 16)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_u0ya7"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xtddm")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_u0ya7"]
+size = Vector2(14, 14)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=1860692426]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1686047025]
+sprite_frames = SubResource("SpriteFrames_u0ya7")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1500111171]
+position = Vector2(0, 1)
+shape = SubResource("RectangleShape2D_u0ya7")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=2020672622]
+script = ExtResource("2_xtddm")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D" unique_id=1052107052]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_u0ya7")
