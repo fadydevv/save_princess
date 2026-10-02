@@ -13,7 +13,7 @@ config_version=5
 config/name="Save the Princess!"
 run/main_scene="uid://dfl32bffvxbw0"
 config/features=PackedStringArray("4.7", "Mobile")
-config/icon="res://icon.svg"
+config/icon="res://Ninja Adventure - Asset Pack/icon.svg"
 
 [autoload]
 

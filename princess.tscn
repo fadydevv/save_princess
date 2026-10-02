@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://cjnt7ps33m87j"]
 
 [ext_resource type="Texture2D" uid="uid://boyrqhsmpq5sf" path="res://Ninja Adventure - Asset Pack/Actor/Character/Princess/SpriteSheet.png" id="1_mlurr"]
-[ext_resource type="Script" uid="uid://cskutl2momyph" path="res://area_2d.gd" id="2_xtddm"]
+[ext_resource type="Script" uid="uid://cskutl2momyph" path="res://script/area_2d.gd" id="2_xtddm"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_xtddm"]
 atlas = ExtResource("1_mlurr")

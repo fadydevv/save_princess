@@ -7,11 +7,11 @@
 [ext_resource type="PackedScene" uid="uid://bp57rxdqsjnlg" path="res://squidgreen.tscn" id="5_kek77"]
 [ext_resource type="Texture2D" uid="uid://dqdtdhtjsr4dq" path="res://Ninja Adventure - Asset Pack/coin icon.png" id="6_5vw27"]
 [ext_resource type="PackedScene" uid="uid://fx4grthhsowd" path="res://coin.tscn" id="6_7mycd"]
-[ext_resource type="Script" uid="uid://cs6k3tdygjlpn" path="res://label.gd" id="6_272bh"]
+[ext_resource type="Script" uid="uid://cs6k3tdygjlpn" path="res://script/label.gd" id="6_272bh"]
 [ext_resource type="PackedScene" uid="uid://cjnt7ps33m87j" path="res://princess.tscn" id="6_efxa6"]
 [ext_resource type="FontFile" uid="uid://bkiaj3cyba6cq" path="res://Ninja Adventure - Asset Pack/Ui/Font/NormalFont.ttf" id="7_5vw27"]
 [ext_resource type="Texture2D" uid="uid://bqoapmh0bdgem" path="res://Ninja Adventure - Asset Pack/Items/Treasure/BigTreasureChest.png" id="11_dg77c"]
-[ext_resource type="Script" uid="uid://bs7107sh0to3m" path="res://end_screen.gd" id="12_dg77c"]
+[ext_resource type="Script" uid="uid://bs7107sh0to3m" path="res://script/end_screen.gd" id="12_dg77c"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_7mycd"]
 texture = ExtResource("1_h2yge")

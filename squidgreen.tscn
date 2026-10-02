@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bp57rxdqsjnlg"]
 
-[ext_resource type="Script" uid="uid://dj4wuwmhlqrdc" path="res://squidgreen.gd" id="1_2ut18"]
+[ext_resource type="Script" uid="uid://dj4wuwmhlqrdc" path="res://script/squidgreen.gd" id="1_2ut18"]
 [ext_resource type="Texture2D" uid="uid://hnvtsbfxf8b8" path="res://Ninja Adventure - Asset Pack/Actor/Boss/SquidGreen/AttackLoop.png" id="1_vmmr2"]
 [ext_resource type="Texture2D" uid="uid://dwy7xb68pjk0o" path="res://Ninja Adventure - Asset Pack/Actor/Boss/SquidGreen/Hit.png" id="2_2ut18"]
 [ext_resource type="Texture2D" uid="uid://cdgxi7wwik3fy" path="res://Ninja Adventure - Asset Pack/Actor/Boss/SquidGreen/Idle.png" id="3_ueckb"]

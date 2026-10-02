@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://fx4grthhsowd"]
 
-[ext_resource type="Script" uid="uid://cjquqxd4pe1no" path="res://coin.gd" id="1_0t63x"]
+[ext_resource type="Script" uid="uid://cjquqxd4pe1no" path="res://script/coin.gd" id="1_0t63x"]
 [ext_resource type="Texture2D" uid="uid://dyq7xkxu7y1pw" path="res://Ninja Adventure - Asset Pack/Coin Sheet.png" id="1_d5gmh"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_0t63x"]
