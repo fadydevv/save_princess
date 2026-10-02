@@ -9,8 +9,6 @@ func _ready() -> void:
 func _on_body_entered(body: Node2D) -> void:
 	if body.is_in_group("player"):
 		collision_shape.set_deferred("disabled", true)
-		
-		# Update global score counter
 		GameManager.add_score(1)
 		animated_sprite.play("collected")
 		await animated_sprite.animation_finished

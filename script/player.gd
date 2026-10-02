@@ -95,10 +95,9 @@ func take_damage(amount: int):
 	is_invincible = true
 	is_hurt = true
 
-	var hit_anim = "hurt_" + last_direction
-	if animated_sprite.sprite_frames.has_animation(hit_anim):
-		animated_sprite.play(hit_anim)
-		await animated_sprite.animation_finished
+	var hurt_anim = "hurt_" + last_direction
+	animated_sprite.play(hurt_anim)
+	await animated_sprite.animation_finished
 
 	is_hurt = false
 	_flash_effect()
@@ -106,10 +105,6 @@ func take_damage(amount: int):
 	await get_tree().create_timer(invincibility_duration).timeout
 	is_invincible = false
 	animated_sprite.modulate.a = 1.0
-
-func heal(amount: int):
-	current_health = min(current_health + amount, max_health)
-	_update_health_bar()
 
 func _update_health_bar():
 	if health_bar != null:
