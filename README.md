@@ -1,5 +1,8 @@
 In  this game, you are a ninja trying to save a princess trapped by a giant squid. Through out the way, you can collect coins. Be careful! The squid is not easy to kill and would require a hit and run tactic to beat it. 
 
+Link to Play:
+https://feno07.itch.io/save-the-princess
+
 Controls: 
 - WASD or Arrow keys for movement
 - Space or Left click to attack
